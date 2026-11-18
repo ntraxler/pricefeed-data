@@ -1,0 +1,159 @@
+{
+  "generated_at": "2026-11-18T07:25:17-08:00",
+  "session_date": "2026-11-17",
+  "source": "Nasdaq.com historical daily closes; Bitcoin: CoinGecko 24h, checked against CoinMarketCap",
+  "note": "pct_change = (close - prev_close) / prev_close * 100. session_date is the expected NYSE session; a stock's error is set unless its closes are that session and the one before. Bitcoin is a rolling 24h change judged by as_of and error. Use a value only when its error is null.",
+  "symbols": [
+    {
+      "symbol": "CLSK",
+      "name": "CleanSpark Inc",
+      "close": 6.15,
+      "prev_close": 6.3,
+      "pct_change": -2.38,
+      "session_date": "2026-11-17",
+      "prev_session_date": "2026-11-16",
+      "source_url": "https://www.nasdaq.com/market-activity/stocks/clsk/historical",
+      "error": null
+    },
+    {
+      "symbol": "FLKR",
+      "name": "Franklin FTSE South Korea ETF",
+      "close": 44.82,
+      "prev_close": 45.38,
+      "pct_change": -1.23,
+      "session_date": "2026-11-17",
+      "prev_session_date": "2026-11-16",
+      "source_url": "https://www.nasdaq.com/market-activity/etf/flkr/historical",
+      "error": null
+    },
+    {
+      "symbol": "FTEC",
+      "name": "Fidelity MSCI Information Technology Index ETF",
+      "close": 254.73,
+      "prev_close": 257.12,
+      "pct_change": -0.93,
+      "session_date": "2026-11-17",
+      "prev_session_date": "2026-11-16",
+      "source_url": "https://www.nasdaq.com/market-activity/etf/ftec/historical",
+      "error": null
+    },
+    {
+      "symbol": "KTOS",
+      "name": "Kratos Defense & Security Solutions",
+      "close": 31.06,
+      "prev_close": 31.66,
+      "pct_change": -1.9,
+      "session_date": "2026-11-17",
+      "prev_session_date": "2026-11-16",
+      "source_url": "https://www.nasdaq.com/market-activity/stocks/ktos/historical",
+      "error": null
+    },
+    {
+      "symbol": "NVO",
+      "name": "Novo Nordisk ADR",
+      "close": 40.7,
+      "prev_close": 41.6,
+      "pct_change": -2.16,
+      "session_date": "2026-11-17",
+      "prev_session_date": "2026-11-16",
+      "source_url": "https://www.nasdaq.com/market-activity/stocks/nvo/historical",
+      "error": null
+    },
+    {
+      "symbol": "OZEM",
+      "name": "Roundhill GLP-1 & Weight Loss ETF",
+      "close": 30.3899,
+      "prev_close": 30.748,
+      "pct_change": -1.16,
+      "session_date": "2026-11-17",
+      "prev_session_date": "2026-11-16",
+      "source_url": "https://www.nasdaq.com/market-activity/etf/ozem/historical",
+      "error": null
+    },
+    {
+      "symbol": "UMAC",
+      "name": "Unusual Machines Inc",
+      "close": 10.04,
+      "prev_close": 10.59,
+      "pct_change": -5.19,
+      "session_date": "2026-11-17",
+      "prev_session_date": "2026-11-16",
+      "source_url": "https://www.nasdaq.com/market-activity/stocks/umac/historical",
+      "error": null
+    },
+    {
+      "symbol": "AIS",
+      "name": "VistaShares Artificial Intelligence Supercycle ETF",
+      "close": 50.6,
+      "prev_close": 50.82,
+      "pct_change": -0.43,
+      "session_date": "2026-11-17",
+      "prev_session_date": "2026-11-16",
+      "source_url": "https://www.nasdaq.com/market-activity/etf/ais/historical",
+      "error": null
+    },
+    {
+      "symbol": "NUCL",
+      "name": "Eagle Nuclear Energy Corp",
+      "close": 3.09,
+      "prev_close": 3.15,
+      "pct_change": -1.9,
+      "session_date": "2026-11-17",
+      "prev_session_date": "2026-11-16",
+      "source_url": "https://www.nasdaq.com/market-activity/stocks/nucl/historical",
+      "error": null
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corp",
+      "close": 155.46,
+      "prev_close": 156.14,
+      "pct_change": -0.44,
+      "session_date": "2026-11-17",
+      "prev_session_date": "2026-11-16",
+      "source_url": "https://www.nasdaq.com/market-activity/stocks/nvda/historical",
+      "error": null
+    },
+    {
+      "symbol": "RACK",
+      "name": "VanEck Data Center Supply Chain ETF",
+      "close": 38.58,
+      "prev_close": 38.7219,
+      "pct_change": -0.37,
+      "session_date": "2026-11-17",
+      "prev_session_date": "2026-11-16",
+      "source_url": "https://www.nasdaq.com/market-activity/etf/rack/historical",
+      "error": null
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Super Micro Computer Inc",
+      "close": 24.14,
+      "prev_close": 25.025,
+      "pct_change": -3.54,
+      "session_date": "2026-11-17",
+      "prev_session_date": "2026-11-16",
+      "source_url": "https://www.nasdaq.com/market-activity/stocks/smci/historical",
+      "error": null
+    },
+    {
+      "symbol": "BTC",
+      "name": "Bitcoin (24-hour change)",
+      "close": 63527.0,
+      "prev_close": null,
+      "pct_change": -2.2,
+      "session_date": null,
+      "window": "24h",
+      "as_of": "2026-11-18T07:24:42-08:00",
+      "source_url": "https://www.coingecko.com/en/coins/bitcoin",
+      "cross_check": {
+        "source": "CoinMarketCap",
+        "source_url": "https://coinmarketcap.com/currencies/bitcoin/",
+        "pct_change": -1.88,
+        "difference_points": 0.32,
+        "agree": true
+      },
+      "error": null
+    }
+  ]
+}
