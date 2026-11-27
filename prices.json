@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T06:15:24-08:00",
+  "generated_at": "2026-11-27T06:15:24-08:00",
   "session_date": "2026-11-25",
   "source": "Nasdaq.com historical daily closes; Bitcoin: CoinGecko 24h, checked against CoinMarketCap",
   "note": "pct_change = (close - prev_close) / prev_close * 100. session_date is the expected NYSE session; a stock's error is set unless its closes are that session and the one before. Bitcoin is a rolling 24h change judged by as_of and error. Use a value only when its error is null.",
@@ -139,18 +139,18 @@
     {
       "symbol": "BTC",
       "name": "Bitcoin (24-hour change)",
-      "close": 60820.0,
+      "close": 61423.0,
       "prev_close": null,
-      "pct_change": 4.38,
+      "pct_change": 1.02,
       "session_date": null,
       "window": "24h",
-      "as_of": "2026-11-26T06:14:46-08:00",
+      "as_of": "2026-11-27T06:15:13-08:00",
       "source_url": "https://www.coingecko.com/en/coins/bitcoin",
       "cross_check": {
         "source": "CoinMarketCap",
         "source_url": "https://coinmarketcap.com/currencies/bitcoin/",
-        "pct_change": 4.53,
-        "difference_points": 0.14,
+        "pct_change": 0.81,
+        "difference_points": 0.21,
         "agree": true
       },
       "error": null
